@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="9.0.0" />
-    <PackageReference Include="MongoDB.Bson" Version="2.27.0" />
-    <PackageReference Include="MongoDB.Driver" Version="2.27.0" />
+    <ProjectReference Include="..\Banking.Account.Command.Domain\Banking.Account.Command.Domain.csproj" />
   </ItemGroup>
 
 </Project>

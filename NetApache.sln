@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankingAccount", "BankingAccount", "{F85B1965-FCD5-4CC4-A492-781BA16B10CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{6284500D-4371-4DBB-BF14-66C619914149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{0C92C715-256A-4555-8C95-926F091625C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{5CE37B5F-6EE9-49EB-A4C1-2632E203BFF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{7A887C75-F513-4A3F-ABB2-E9C9651AAD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Cqrs.Core", "Banking.Cqrs.Core\Banking.Cqrs.Core.csproj", "{237B8309-4913-434E-8808-07765BCA001A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{237B8309-4913-434E-8808-07765BCA001A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237B8309-4913-434E-8808-07765BCA001A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237B8309-4913-434E-8808-07765BCA001A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237B8309-4913-434E-8808-07765BCA001A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6284500D-4371-4DBB-BF14-66C619914149} = {F85B1965-FCD5-4CC4-A492-781BA16B10CA}
+		{5CE37B5F-6EE9-49EB-A4C1-2632E203BFF8} = {6284500D-4371-4DBB-BF14-66C619914149}
+		{7A887C75-F513-4A3F-ABB2-E9C9651AAD28} = {6284500D-4371-4DBB-BF14-66C619914149}
+		{237B8309-4913-434E-8808-07765BCA001A} = {0C92C715-256A-4555-8C95-926F091625C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D869C798-4C61-4498-9B79-00942A7ED29A}
+	EndGlobalSection
+EndGlobal
